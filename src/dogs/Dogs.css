@@ -1,0 +1,49 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container h1 {
+  text-align: center;
+}
+
+.container-dogs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 355px;
+  background: #FCA5A5;
+}
+
+.imgs-dogs {
+  position: absolute;
+}
+
+.imgs-dogs img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.container-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+}
+
+.container-buttons div img {
+  width: 50px;
+  height: 50px;
+}
+
+.slideOutRight {
+  transform: translateX(500px);
+  transition: transform 1s;
+}
+
+.slideOutLeft {
+  transform: translateX(-500px);
+  transition: transform 1s;
+}
